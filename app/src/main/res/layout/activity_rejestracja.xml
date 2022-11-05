@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo1"
+    tools:context=".Rejestracja">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/usernamer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nazwa"
+            android:textColorHint="#FFFFFF"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/emailr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:textColorHint="#FFFFFF"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/passwordr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hasło"
+            android:inputType="textPassword"
+            android:textColorHint="#FFFFFF"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/password2r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hasło"
+            android:inputType="textPassword"
+            android:textColorHint="#FFFFFF"
+            android:textSize="25sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Rejestracja"
+            android:text="Zarejestruj"
+
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</RelativeLayout>

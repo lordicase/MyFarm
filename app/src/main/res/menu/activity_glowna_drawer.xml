@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_glowna"
+            android:icon="@drawable/ic_money_foreground"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_dzialkiw"
+            android:icon="@drawable/ic_dzialki"
+            android:title="@string/menu_dzialkiw" />
+        <item
+            android:id="@+id/nav_dzialki"
+            android:icon="@drawable/ic_map"
+            android:title="@string/menu_dzialki" />
+        <item
+            android:id="@+id/nav_zabiegi"
+            android:icon="@drawable/ic_zabiegi"
+            android:title="@string/menu_zabiegi" />
+        <item
+            android:id="@+id/nav_zabiegior"
+            android:icon="@drawable/humidity"
+            android:title="@string/menu_zabiegior" />
+        <item
+            android:id="@+id/nav_pracownicy"
+            android:icon="@drawable/ic_pracownik"
+            android:title="@string/menu_pracownicy" />
+        <item
+            android:id="@+id/nav_bydlo"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_bydlo" />
+        <item
+            android:id="@+id/nav_alerty"
+            android:icon="@drawable/ic_alerty"
+            android:title="@string/menu_alerty"/>
+        <item
+            android:id="@+id/nav_pogoda"
+            android:icon="@drawable/ic_pogoda"
+            android:title="@string/menu_pogoda" />
+        <item
+            android:id="@+id/nav_konto"
+            android:icon="@drawable/ic_konto"
+            android:title="@string/menu_send" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu></menu>
+    </item>
+
+</menu>

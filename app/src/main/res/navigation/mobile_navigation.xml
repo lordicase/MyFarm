@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_glowna">
+
+    <fragment
+        android:id="@+id/nav_glowna"
+        android:name="com.example.myfarm.ui.glowna.Ceny"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_glowna" />
+
+    <fragment
+        android:id="@+id/nav_dzialki"
+        android:name="com.example.myfarm.ui.dzialki.Dzialki"
+        android:label="@string/menu_dzialki"
+        tools:layout="@layout/fragment_dzialki" />
+
+    <fragment
+        android:id="@+id/nav_zabiegi"
+        android:name="com.example.myfarm.ui.zabiegi.Zabiegi"
+        android:label="@string/menu_zabiegi"
+        tools:layout="@layout/fragment_zabiegi" />
+
+    <fragment
+        android:id="@+id/nav_alerty"
+        android:name="com.example.myfarm.ui.alerty.Alerty"
+        android:label="@string/menu_alerty"
+        tools:layout="@layout/fragment_alerty" />
+
+    <fragment
+        android:id="@+id/nav_pogoda"
+        android:name="com.example.myfarm.ui.pogoda.Pogoda"
+        android:label="@string/menu_pogoda"
+        tools:layout="@layout/fragment_pogoda" />
+
+    <fragment
+        android:id="@+id/nav_konto"
+        android:name="com.example.myfarm.ui.konto.Konto"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_konto" />
+
+    <fragment
+        android:id="@+id/nav_zabiegior"
+        android:name="com.example.myfarm.ui.zabiegi_o_r.Zabiegior"
+        android:label="@string/menu_zabiegior"
+        tools:layout="@layout/fragment_konto" />
+    <fragment
+        android:id="@+id/nav_dzialkiw"
+        android:name="com.example.myfarm.ui.dzialki.Dzialkiw"
+        android:label="@string/menu_dzialkiw"
+        tools:layout="@layout/fragment_dzialki_wpis" />
+    <fragment
+        android:id="@+id/nav_pracownicy"
+        android:name="com.example.myfarm.ui.pracownicy.Pracownicy"
+        android:label="@string/menu_pracownicy"
+        tools:layout="@layout/fragment_pracownicy" />
+    <fragment
+        android:id="@+id/nav_bydlo"
+        android:name="com.example.myfarm.ui.bydlo.Bydlo"
+        android:label="@string/menu_bydlo"
+        tools:layout="@layout/fragment_bydlo" />
+</navigation>

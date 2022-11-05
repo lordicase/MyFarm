@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">MyFarm</string>
+    <string name="title_activity_glowna">Glowna</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">My Farm</string>
+    <string name="nav_header_subtitle">By Jakub Kopczyński</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDKyo898lR5Vn0d8aTYr8Dr63w1XCRSZAI</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="menu_home">Ceny</string>
+    <string name="menu_dzialki">Mapy działek</string>
+    <string name="menu_zabiegi">Zabiegi agrotechniczne</string>
+    <string name="menu_alerty">Alerty</string>
+    <string name="menu_pogoda">Pogoda</string>
+    <string name="menu_send">Konto</string>
+    <string name="menu_zabiegior">Zabiegi ochrony roślin</string>
+    <string name="menu_dzialkiw">Działki</string>
+    <string name="menu_pracownicy">Pracownicy</string>
+    <string name="menu_bydlo">Księga rejestracji bydła</string>
+
+
+
+
+    <string-array name="zabiegi">
+        <item>Uprawa</item>
+        <item>Nawożenie</item>
+        <item>Siew</item>
+        <item>Zbiory</item>
+    </string-array>
+
+
+
+    <string-array name="uprawy_array">
+        <item>Uprawa</item>
+        <item>Zbożowe</item>
+        <item>Łubin</item>
+        <item>Groch</item>
+        <item>Bobik</item>
+        <item>Kukurydza</item>
+        <item>Ziemniaki</item>
+        <item>Buraki</item>
+        <item>Rzepak</item>
+    </string-array>
+
+
+    <string-array name="szkodniki_array">
+        <item>Szkodnik</item>
+        <item>Mszyca</item>
+        <item>Skrzypionki</item>
+        <item>Ploniarka zbożówka </item>
+        <item>Wciornastki </item>
+        <item>Łokaś garbatek </item>
+        <item>Skoczek trawnik </item>
+        <item>Ździeblarz pszeniczny </item>
+        <item>Lednica zbożowa </item>
+        <item>Oprzędzik szary </item>
+        <item>Wiciorek grochowy </item>
+        <item>Strąkowiec grochowy </item>
+        <item>Oprzędzik </item>
+        <item>Mszyca </item>
+        <item>Strąkowiec bobowy </item>
+        <item>Mszyce </item>
+        <item>Omacnica prosowianka </item>
+        <item>Stonka kukurydziana </item>
+        <item>Urazek kukurydziany </item>
+        <item>Wieczernica szczawiówka </item>
+        <item>Znamionówka tarniówka </item>
+        <item>Stonka ziemniaczna </item>
+        <item>Mątwik </item>
+        <item>Drutowce </item>
+        <item>Pędraki </item>
+        <item>Rolnice </item>
+        <item>Błyszczka jarzynówka </item>
+        <item>Drobnica burakowa </item>
+        <item>Koziułkowate </item>
+        <item>Nicienie </item>
+        <item>Omarlice </item>
+        <item>Pchełki </item>
+        <item>Płaszczyniec burakowy </item>
+        <item>Ryjkowcowate </item>
+        <item>Skoczogonki </item>
+        <item>Śmietki </item>
+        <item>Tarczyk mgławatek </item>
+        <item>Pryszczarek kapustnik </item>
+        <item>Chowacz podobnik </item>
+        <item>Słodyszek rzepakowy </item>
+        <item>Chowacz czterozębny </item>
+        <item>Chowacz brukwiaczek </item>
+        <item>Gnatarz rzepakowiec </item>
+        <item>Ślimaki </item>
+        <item>Pchełki ziemne </item>
+    </string-array>
+</resources>

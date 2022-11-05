@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:id="@+id/tabela"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteX="16dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="96dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:background="#589E9090"
+                            android:padding="5px"
+                            android:text="Nazwa działki" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="58dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5px"
+                            android:text="Uprawa" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:background="#589E9090"
+                            android:padding="5px"
+                            android:text="Opszar zabiegu [ha]" />
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="98dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5px"
+                            android:text="Data" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="121dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:background="#589E9090"
+                            android:padding="5px"
+                            android:text="Nazwa środka" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="67dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5px"
+                            android:text="Dawka" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:background="#589E9090"
+                            android:padding="5px"
+                            android:text="Uwagi" />
+                    </TableRow>
+
+                </TableLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/faba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_input_add" />
+</androidx.constraintlayout.widget.ConstraintLayout>
