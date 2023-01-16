@@ -1,5 +1,6 @@
 # MyFarm
 Mobilna aplikacja dla rolników ułatwiająca zarządzanie gospodarstwem, pozwala na przejście z dokumentacji papierowej na elektroniczną, synchronizuje sie z danymi z serwera i udostępnia podobne funkcjonalności co wersja internetowa czyli tworzenie podstawowej dokumentacji, prognoza pogody oraz mapę szkodników. 
+
 ![image](https://user-images.githubusercontent.com/56389485/212641183-b5eb4a9a-ee71-49a5-bea8-e1daad55d429.png) ![image](https://user-images.githubusercontent.com/56389485/212641276-9b1d3e78-9079-4b05-9178-7c9fccd7d837.png)
 
 Ekran logowani oraz rejestracji zbudowane są w podobny sposób. W pierwszej części znajduje się formularz na dane użytkownika, natomiast poniżej znajdują się przyciski zatwierdzające.
